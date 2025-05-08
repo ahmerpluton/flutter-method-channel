@@ -42,10 +42,10 @@ import Flutter
 
         return super.application(application, didFinishLaunchingWithOptions: launchOptions)
      }
-     //Commetn
+
 
    private func showNativeLoader() {
-    guard let window = self.window else { return }
+     
 
     let dimView = UIView(frame: window.bounds)
     dimView.backgroundColor = UIColor.black.withAlphaComponent(0.5)
